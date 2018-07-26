@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet"href="userlist.css">
+<title>ユーザ一覧</title>
+</head>
+<body>
+<header>
+	<p>ユーザ名 さん&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<a href="javascript:history.back();"><font color=red>ログアウト</font></a></p>
+</header>
+<h1 class="inner">
+ユーザ一覧</h1><br />
+<div class="right">
+<a href="javascript:history.back();">新規登録</a></div><br/>
+
+<div class="inner">
+
+<span>ログインID </span><span><input  id="inputId"class=example1 ></span><br /><br />
+<span>ユーザ名 </span><span><input  id="inputId" class=example1></span><br /><br />
+<span>生年月日 </span><span><input type="date" name="example" class=example2>～<input type="date" name="example" class=example2></span><br /><br />
+
+ <input type="submit"value="検索"style="width: 100px; height: 30px; position: relative; left: 20%; top: 50%"/><br /><br />
+
+<p class="box"style="width: 900px; height: 10px;margin:auto;"></p>
+
+<table  border=1 style="margin:auto;">
+  <tr bgcolor="silver"><th>ログインID</th><th>ユーザ名</th><th>生年月日</th><th></th></tr>
+  <tr><td>id0001</td><td>田中太郎</td><td>1989年04月26日</td><td><form>
+  <input type="submit" value="詳細" style="background-color:blue;color:white">
+   <input type="submit" value="更新" style="background-color:green;color:white">
+   <input type="submit" value="削除" style="background-color:red;color:white"> </form></td></tr>
+  <tr><td>id0002</td><td>佐藤二朗</td><td>2001年11月12日</td><td><form>
+   <input type="submit" value="詳細" style="background-color:blue;color:white">
+   <input type="submit" value="更新" style="background-color:green;color:white">
+   <input type="submit" value="削除" style="background-color:red;color:white"> </form></td></tr>
+  <tr><td>id0003</td><td>佐川真司</td><td>2000年01月01日</td><td><form>
+   <input type="submit" value="詳細" style="background-color:blue;color:white">
+   <input type="submit" value="更新" style="background-color:green;color:white">
+   <input type="submit" value="削除" style="background-color:red;color:white"> </form></td></tr>
+</table>
+
+</div>
+</body>
+</html>

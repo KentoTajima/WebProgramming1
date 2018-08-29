@@ -9,14 +9,15 @@
 <title>ログイン</title>
 </head>
 <body>
-<c:if test="${errMsg != null}" >
-	    <div class="alert alert-danger" role="alert">
-		  ${errMsg}
-		</div>
-	</c:if>
 
 <h1 class="inner">
 ログイン画面</h1><br />
+<c:if test="${errMsg != null}" >
+	    <div class=inner role="alert">
+		<font color=red>  ${errMsg}
+		</font>
+		</div>
+	</c:if>
 <form class="form-signin" action="LoginServlet" method="post">
 <div class="inner">
 <span>ログインID </span><input   name="loginId" id="inputLoginId" class="form-control" ><br /><br />

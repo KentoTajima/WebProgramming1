@@ -28,7 +28,7 @@
 <span>パスワード </span><input type="password"  name="password" id="inputPassword" class="form-control" ><br /><br />
 <span>パスワード(確認) </span><input  type="password"  name="password2" id="inputPassword" class="form-control"  ><br /><br />
 <span>ユーザ名 </span><input  name="name" id="inputName" class="form-control" ><br /><br />
-<span>生年月日 </span><input  name="birthDate" id="inputBirthDate" class="form-control" type=date  ><br /><br />
+<span>生年月日 </span><input  name="birthDate" id="inputBirthDate" class="form-control" type=date style="width: 168px;height: 17px" ><br /><br />
 
  <input type="submit"style="width: 100px; height: 30px"value="登録"><br /><br />
  </form>
